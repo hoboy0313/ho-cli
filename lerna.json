@@ -1,0 +1,9 @@
+{
+  "packages": [
+    "packages/@hoboy/cli*",
+    "packages/@hoboy/service*"
+  ],
+  "npmClient": "yarn",
+	"useWorkspaces": true,
+  "version": "independent"
+}
