@@ -1,5 +1,5 @@
 {
-  "name": "cli-build",
+  "name": "@hoboy/cli-build",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "shenxi <dragon.jinghan.liu@gmail.com>",
@@ -18,5 +18,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
   }
 }

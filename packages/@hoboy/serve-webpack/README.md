@@ -1,11 +1,11 @@
-# `service-webpack`
+# `serve-webpack`
 
 > TODO: description
 
 ## Usage
 
 ```
-const serviceWebpack = require('service-webpack');
+const serve = require('serve-webpack');
 
 // TODO: DEMONSTRATE API
 ```

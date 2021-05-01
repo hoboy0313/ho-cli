@@ -1,11 +1,11 @@
 {
-  "name": "service-webpack",
+  "name": "@hoboy/serve-webpack",
   "version": "1.0.0",
   "description": "> TODO: description",
   "author": "shenxi <dragon.jinghan.liu@gmail.com>",
   "homepage": "",
   "license": "ISC",
-  "main": "lib/service-webpack.js",
+  "main": "lib/serve-webpack.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,5 +18,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^4.2.4"
   }
 }
