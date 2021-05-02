@@ -20,7 +20,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "dev": "rm -rf ./lib && tsc -w"
+    "dev": "tsc -w"
   },
   "dependencies": {
     "@hoboy/cli-shared-utils": "^0.0.1",
