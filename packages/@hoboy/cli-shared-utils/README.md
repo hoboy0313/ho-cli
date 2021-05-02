@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const cliSharedUtils = require('@hoboy/cli-shared-utils');
+const index = require('@hoboy/cli-shared-utils');
 
 // TODO: DEMONSTRATE API
 ```

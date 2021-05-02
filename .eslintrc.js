@@ -5,7 +5,15 @@ module.exports = {
     node: true,
   },
 
-  extends: ['airbnb-base'],
+  settings: {
+    'import/resolver': {
+      node: {
+        extensions: ['.js', '.jsx', '.ts', '.tsx'],
+      },
+    },
+  },
+
+  extends: ['airbnb-base', 'alloy', 'alloy/typescript'],
 
   parser: '@typescript-eslint/parser',
   parserOptions: {
@@ -14,5 +22,8 @@ module.exports = {
   },
 
   plugins: ['@typescript-eslint'],
-  rules: {},
+  rules: {
+    'import/prefer-default-export': 0,
+    // 'import/no-unresolved': [2, {  }],
+  },
 };

@@ -1,6 +1,6 @@
 {
   "name": "@hoboy/cli-dev",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "> TODO: description",
   "author": "shenxi <dragon.jinghan.liu@gmail.com>",
   "homepage": "",
@@ -17,7 +17,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "dev1": "rm -rf ./lib && tsc -w"
   },
   "dependencies": {
     "typescript": "^4.2.4"

@@ -1,1 +1,11 @@
 node_modules
+
+# test project
+test
+
+# dist
+lib
+
+# error
+yarn-error.log
+lerna-debug.log
