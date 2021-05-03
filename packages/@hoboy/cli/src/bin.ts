@@ -21,7 +21,7 @@ const pkgName = `${CMD_PREFIX}${cmd}`;
 const run = safeRequire(pkgName);
 
 if (!run) {
-  error(`${chalk.red(pkgName)} is not a CLI package`);
+  error(`${chalk.red(pkgName)} is not a CLI package.`);
   process.exit(20);
 }
 

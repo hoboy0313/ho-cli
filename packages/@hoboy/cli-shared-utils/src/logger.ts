@@ -11,7 +11,7 @@ const format = (label: string, msg: string) => {
   return msg.split('\n').map((line, i) => {
     return i === 0
       ? `${label} ${line}`
-      : line.padStart(stripAnsi(label).length + line.length + 1);
+      : line.padStart(stripAnsi.default(label).length + line.length + 1);
   }).join('\n');
 };
 
@@ -20,15 +20,15 @@ const log = (msg: string) => {
 };
 
 const info = (msg: string) => {
-  console.info(chalk.bgBlue.white(' INFO '), msg);
+  console.info(format(chalk.bgBlue.white(' INFO '), msg));
 };
 
 const warn = (msg: string) => {
-  console.warn(chalk.bgYellowBright.white(' WARN '), msg);
+  console.warn(format(chalk.bgYellowBright.white(' WARN '), msg));
 };
 
 const error = (msg: string) => {
-  console.error(chalk.bgRed.white(' ERROR '), msg);
+  console.error(format(chalk.bgRed.white(' ERROR '), msg));
 };
 
 const logger = {

@@ -15,7 +15,7 @@ type RunFn = (cwd: string, args: Record<string, any>) => any
  */
 const safeRequire = (id: string): RunFn | null => {
   try {
-    return createRequire(import.meta.url)(id);
+    return createRequire(id);
   } catch (e) {
     return null;
   }

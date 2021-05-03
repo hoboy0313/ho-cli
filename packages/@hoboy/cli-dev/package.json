@@ -17,7 +17,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "dev1": "rm -rf ./lib && tsc -w"
+    "build": "tsc"
   },
   "dependencies": {
     "typescript": "^4.2.4"

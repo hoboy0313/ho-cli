@@ -10,9 +10,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "lerna run dev --parallel",
+    "test": "lerna run test",
     "boot": "node scripts/bootstrap.js"
   },
   "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.1",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.25.0",
@@ -20,6 +23,9 @@
     "eslint-config-alloy": "^4.1.0",
     "eslint-plugin-import": "^2.22.1",
     "glob": "^7.1.6",
-    "lerna": "^4.0.0"
+    "jest": "^26.6.3",
+    "lerna": "^4.0.0",
+    "ts-jest": "^26.5.5",
+    "ts-node": "^9.1.1"
   }
 }
