@@ -11,7 +11,7 @@ const format = (label: string, msg: string) => {
   return msg.split('\n').map((line, i) => {
     return i === 0
       ? `${label} ${line}`
-      : line.padStart(stripAnsi.default(label).length + line.length + 1);
+      : line.padStart(stripAnsi(label).length + line.length + 1);
   }).join('\n');
 };
 
